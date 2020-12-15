@@ -6,9 +6,9 @@
 
 ```shell
 # リポジトリコピー
-git clone https://github.com/miyax0227/quizScatterer
+git clone https://github.com/miyax0227/quizScattererDoc2Vec
 # 必要なライブラリのインストール
-cd quizScatterer
+cd quizScattererDoc2Vec
 sudo pip3 install -r requirements.txt
 # 学習済みモデルのダウンロード（白ヤギコーポレーション様）
 sudo chmod 755 getGensimModel.sh
@@ -18,12 +18,12 @@ sudo chmod 755 getGensimModel.sh
 ## コマンド
 
 ```shell
-python3 -m quizScatter INPUT_FILE (> OUTPUT_FILE)
+python3 -m quizScattererDoc2Vec INPUT_FILE (> OUTPUT_FILE)
 ```
 
 例：
 ```shell
-python3 -m quizScatter sample.txt > result.txt
+python3 -m quizScattererDoc2Vec sample.txt > result.txt
 ```
 
 ## 作者

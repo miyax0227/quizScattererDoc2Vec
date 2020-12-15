@@ -4,7 +4,7 @@ if [ $? != 0 ]; then
   exit 255
 fi
 rm -f *
-wget http://public.shiroyagi.s3.amazonaws.com/latest-ja-word2vec-gensim-model.zip
-unzip latest-ja-word2vec-gensim-model.zip
-rm latest-ja-word2vec-gensim-model.zip
+wget https://dl.dropboxusercontent.com/s/j75s0eq4eeuyt5n/jawiki.doc2vec.dbow300d.tar.bz2
+tar jxvf jawiki.doc2vec.dbow300d.tar.bz2
+rm jawiki.doc2vec.dbow300d.tar.bz2
 exit 0
